@@ -1,0 +1,504 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "booking_app",
+    "collectionId": "897e6afb-0d4e-4fad-9291-04eb6984eeff",
+    "dateExported": "2024-05-05T03:34:02.909Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "ca8388bf-407c-4a44-889a-b83dc6d7dce2",
+            "colId": "897e6afb-0d4e-4fad-9291-04eb6984eeff",
+            "containerId": "",
+            "name": "Hotel (create)",
+            "url": "http://localhost:8800/api/v1/hotel/create",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-04-24T22:04:08.031Z",
+            "modified": "2024-04-30T21:51:39.008Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"hotel 11\",\n  \"type\":\"hotel\",\n  \"city\":\"Berlin\",\n  \"address\":\"Berlin, Germany\",\n  \"distance\":\"800\",\n  \"image\":[\n      \"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2023/09/29/1321/LASDH-P0006-Deluxe-Double.jpg/LASDH-P0006-Deluxe-Double.16x9.jpg?imwidth=1280\",\n      \"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2023/09/29/1321/LASDH-P0008-Deluxe-King-And-Seating-Area.jpg/LASDH-P0008-Deluxe-King-And-Seating-Area.16x9.jpg?imwidth=1280\",\n      \"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2022/08/30/1150/GLOBAL-P0886-Pool-Champagne-People.jpg/GLOBAL-P0886-Pool-Champagne-People.16x9.jpg?imwidth=1280\",\n      \"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2023/09/29/1321/LASDH-P0007-Exterior-And-Las-Vegas-Skyline.jpg/LASDH-P0007-Exterior-And-Las-Vegas-Skyline.16x9.jpg?imwidth=1920\",\n      \"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2024/03/11/2110/LASDH-P0069-Lagoon-Swimming-Pool.jpg/LASDH-P0069-Lagoon-Swimming-Pool.16x9.jpg?imwidth=1920\",\n      \"https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2024/02/26/1524/LASDH-P0015-One-Bedroom-Suite-Ipanema-Tower.jpg/LASDH-P0015-One-Bedroom-Suite-Ipanema-Tower.16x9.jpg?imwidth=1280\"\n    ],\n  \"title\":\"The big hotel\",\n  \"description\":\"Located a 5-minute walk from St. Florian's Gate in Krakow, Tower Street Apartments has accommodations with air conditioning and free WiFi. The units come w hardwood floors and feature a fully equipped kitchenette with a microwave, a flat-screen TV, and a private bathroom with shower and a hairdryer. A fridge is also offered, as well as an electric tea pot and a coffee machine. Popular points of interest near the apartment include Cloth Hall, Main Market Square and Town Hall Tower. The nearest airport is John Paul I| International Krakow-Balice, 16.1 km from Tower Street Apartments, and the property offers a paid airport shuttle service.\",\n  \"rooms\": [],\n  \"cheapestPrice\": 60,\n  \"featured\": true,\n  \"rating\": 4\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "595a1574-c524-43b5-9f0d-e5b75c0ff826",
+            "colId": "897e6afb-0d4e-4fad-9291-04eb6984eeff",
+            "containerId": "",
+            "name": "Hotel (update)",
+            "url": "http://localhost:8800/api/v1/hotel/update/660ee69d05c3e0db729aa2c0",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-04-24T22:04:08.032Z",
+            "modified": "2024-04-24T22:04:08.032Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"description\":\"Located a 5-minute walk from St. Florian's Gate in Krakow, Tower Street Apartments has accommodations with air conditioning and free WiFi. The units come w hardwood floors and feature a fully equipped kitchenette with a microwave, a flat-screen TV, and a private bathroom with shower and a hairdryer. A fridge is also offered, as well as an electric tea pot and a coffee machine. Popular points of interest near the apartment include Cloth Hall, Main Market Square and Town Hall Tower. The nearest airport is John Paul I| International Krakow-Balice, 16.1 km from Tower Street Apartments, and the property offers a paid airport shuttle service.\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "129b9e4b-1406-4944-812e-29e4eced6fbb",
+            "colId": "897e6afb-0d4e-4fad-9291-04eb6984eeff",
+            "containerId": "",
+            "name": "Hotel (delete)",
+            "url": "http://localhost:8800/api/v1/hotel/delete/6613f943e9c747a0eff73793",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-04-24T22:04:08.033Z",
+            "modified": "2024-04-24T22:04:08.033Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "48d34383-d185-4fe2-85dc-3fbf030f394e",
+            "colId": "897e6afb-0d4e-4fad-9291-04eb6984eeff",
+            "containerId": "",
+            "name": "Hotel (get)",
+            "url": "http://localhost:8800/api/v1/hotel/get/660ee69d05c3e0db729aa2c0",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-04-24T22:04:08.034Z",
+            "modified": "2024-04-24T22:04:08.034Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9895923a-b51c-4fd9-843a-1df9064eb9a9",
+            "colId": "897e6afb-0d4e-4fad-9291-04eb6984eeff",
+            "containerId": "",
+            "name": "Hotel (get all)",
+            "url": "http://localhost:8800/api/v1/hotel/get?featured=true&limit=10&min=5&max=100000",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-04-24T22:04:08.035Z",
+            "modified": "2024-05-03T18:41:51.877Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "featured",
+                    "value": "true",
+                    "isPath": false
+                },
+                {
+                    "name": "limit",
+                    "value": "10",
+                    "isPath": false
+                },
+                {
+                    "name": "min",
+                    "value": "5",
+                    "isPath": false
+                },
+                {
+                    "name": "max",
+                    "value": "100000",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "4b1d4137-5ef1-436d-b42f-2ede7f9b7928",
+            "colId": "897e6afb-0d4e-4fad-9291-04eb6984eeff",
+            "containerId": "",
+            "name": "Hotel (count by city)",
+            "url": "http://localhost:8800/api/v1/hotel/countByCity?cities=houston,berlin,madrid",
+            "method": "GET",
+            "sortNum": 51250,
+            "created": "2024-04-24T22:04:08.050Z",
+            "modified": "2024-04-24T22:29:52.358Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "cities",
+                    "value": "houston,berlin,madrid",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "d401957e-3ba6-428c-babe-48725fdf6eda",
+            "colId": "897e6afb-0d4e-4fad-9291-04eb6984eeff",
+            "containerId": "",
+            "name": "Hotel (count by type)",
+            "url": "http://localhost:8800/api/v1/hotel/countByType",
+            "method": "GET",
+            "sortNum": 51875,
+            "created": "2024-04-24T22:04:08.051Z",
+            "modified": "2024-04-24T22:04:08.051Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "3d0671bd-187c-4d6b-89e9-3adea387a02e",
+            "colId": "897e6afb-0d4e-4fad-9291-04eb6984eeff",
+            "containerId": "",
+            "name": "Hotel (get cities)",
+            "url": "http://localhost:8800/api/v1/hotel/cities",
+            "method": "GET",
+            "sortNum": 52187.5,
+            "created": "2024-04-24T22:04:08.052Z",
+            "modified": "2024-04-24T22:04:08.052Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "6be009ed-707e-46d9-be63-a8f012e2531e",
+            "colId": "897e6afb-0d4e-4fad-9291-04eb6984eeff",
+            "containerId": "",
+            "name": "Hotel (get cities and the count of hotels by city)",
+            "url": "http://localhost:8800/api/v1/hotel/CitiesAndCountHotels",
+            "method": "GET",
+            "sortNum": 52343.8,
+            "created": "2024-04-24T22:04:08.053Z",
+            "modified": "2024-04-24T22:04:08.053Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "47fb80b3-2703-443e-ace1-e5a1c5fb5bf9",
+            "colId": "897e6afb-0d4e-4fad-9291-04eb6984eeff",
+            "containerId": "",
+            "name": "Hotel (get hotels by city, with a price range)",
+            "url": "http://localhost:8800/api/v1/hotel/getHotelsByCity?city=houston&min=5&max=60",
+            "method": "GET",
+            "sortNum": 52421.9,
+            "created": "2024-04-24T22:04:08.054Z",
+            "modified": "2024-04-29T16:57:17.557Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "city",
+                    "value": "houston",
+                    "isPath": false
+                },
+                {
+                    "name": "min",
+                    "value": "5",
+                    "isPath": false
+                },
+                {
+                    "name": "max",
+                    "value": "60",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "f5365bcf-f945-428b-94da-c3a3431cd8db",
+            "colId": "897e6afb-0d4e-4fad-9291-04eb6984eeff",
+            "containerId": "",
+            "name": "Hotel (get hotel rooms)",
+            "url": "http://localhost:8800/api/v1/hotel/rooms/660ee69d05c3e0db729aa2c0",
+            "method": "GET",
+            "sortNum": 52460.9,
+            "created": "2024-04-24T22:04:08.055Z",
+            "modified": "2024-04-24T22:04:08.055Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "3aac54ba-85c5-4aee-9485-6da0f3f9faf0",
+            "colId": "897e6afb-0d4e-4fad-9291-04eb6984eeff",
+            "containerId": "",
+            "name": "Verify Token",
+            "url": "http://localhost:8800/api/v1/check_authentication",
+            "method": "GET",
+            "sortNum": 52500,
+            "created": "2024-04-24T22:04:08.039Z",
+            "modified": "2024-04-24T22:04:08.039Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "75bbd845-aa58-407b-8d8f-19e4b49a3b4a",
+            "colId": "897e6afb-0d4e-4fad-9291-04eb6984eeff",
+            "containerId": "",
+            "name": "User (verify)",
+            "url": "http://localhost:8800/api/v1/user/verify/6609d1979688dad4710bb329/anniel",
+            "method": "GET",
+            "sortNum": 55000,
+            "created": "2024-04-24T22:04:08.040Z",
+            "modified": "2024-04-29T16:43:32.205Z",
+            "headers": []
+        },
+        {
+            "_id": "73fe2374-ffe6-4201-bad9-899727d91662",
+            "colId": "897e6afb-0d4e-4fad-9291-04eb6984eeff",
+            "containerId": "",
+            "name": "User (isAdminUser)",
+            "url": "http://localhost:8800/api/v1/user/isAdmin/6609d1979688dad4710bb329/anniel",
+            "method": "GET",
+            "sortNum": 56250,
+            "created": "2024-04-24T22:04:08.041Z",
+            "modified": "2024-04-30T13:31:19.512Z",
+            "headers": []
+        },
+        {
+            "_id": "f117c296-7f37-49eb-8eea-4b054a892599",
+            "colId": "897e6afb-0d4e-4fad-9291-04eb6984eeff",
+            "containerId": "",
+            "name": "User (isAdmin)",
+            "url": "http://localhost:8800/api/v1/user/isAdmin/6609d1979688dad4710bb329",
+            "method": "GET",
+            "sortNum": 56875,
+            "created": "2024-04-30T13:54:45.981Z",
+            "modified": "2024-04-30T13:55:26.352Z",
+            "headers": []
+        },
+        {
+            "_id": "9616834c-25b1-4b96-afc1-8b3db98d4a23",
+            "colId": "897e6afb-0d4e-4fad-9291-04eb6984eeff",
+            "containerId": "",
+            "name": "User (update)",
+            "url": "http://localhost:8800/api/v1/user/update/660c9400aba437aed95e349e",
+            "method": "PUT",
+            "sortNum": 57500,
+            "created": "2024-04-24T22:04:08.038Z",
+            "modified": "2024-04-24T22:04:08.038Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"ana@gmail.com\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "1ce74395-2b7c-4a18-a616-921d7b03828b",
+            "colId": "897e6afb-0d4e-4fad-9291-04eb6984eeff",
+            "containerId": "",
+            "name": "User (delete)",
+            "url": "http://localhost:8800/api/v1/user/delete/66313cdb01d6c426196569cc",
+            "method": "DELETE",
+            "sortNum": 58750,
+            "created": "2024-04-24T22:04:08.042Z",
+            "modified": "2024-04-30T18:50:15.336Z",
+            "headers": []
+        },
+        {
+            "_id": "4262b681-de59-471c-8d2c-3f1340d92177",
+            "colId": "897e6afb-0d4e-4fad-9291-04eb6984eeff",
+            "containerId": "",
+            "name": "User (get)",
+            "url": "http://localhost:8800/api/v1/user/get/66313b8c01d6c426196569a6",
+            "method": "GET",
+            "sortNum": 59375,
+            "created": "2024-04-24T22:04:08.043Z",
+            "modified": "2024-04-30T18:58:39.649Z",
+            "headers": []
+        },
+        {
+            "_id": "3bb26082-b779-48cd-80ac-b60bc0c56476",
+            "colId": "897e6afb-0d4e-4fad-9291-04eb6984eeff",
+            "containerId": "",
+            "name": "User (get all)",
+            "url": "http://localhost:8800/api/v1/user/get",
+            "method": "GET",
+            "sortNum": 59687.5,
+            "created": "2024-04-24T22:04:08.044Z",
+            "modified": "2024-04-24T22:04:08.044Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "331e4fca-39e4-4d96-b5d3-e6092469b44e",
+            "colId": "897e6afb-0d4e-4fad-9291-04eb6984eeff",
+            "containerId": "",
+            "name": "User (isEmail)",
+            "url": "http://localhost:8800/api/v1/user/isEmail",
+            "method": "GET",
+            "sortNum": 59843.8,
+            "created": "2024-04-27T04:12:19.182Z",
+            "modified": "2024-04-27T04:22:03.454Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\":\"asiel@gmail.com\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "5f4f2f68-b1c9-4011-b347-717b096e06ec",
+            "colId": "897e6afb-0d4e-4fad-9291-04eb6984eeff",
+            "containerId": "",
+            "name": "User (isUsername)",
+            "url": "http://localhost:8800/api/v1/user/isUsername",
+            "method": "GET",
+            "sortNum": 59921.9,
+            "created": "2024-04-27T04:22:20.307Z",
+            "modified": "2024-04-27T04:23:51.600Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\":\"asiel\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "e3766851-f809-4d6b-801e-914a722bad78",
+            "colId": "897e6afb-0d4e-4fad-9291-04eb6984eeff",
+            "containerId": "",
+            "name": "User (register)",
+            "url": "http://localhost:8800/api/v1/user/register",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-04-24T22:04:08.036Z",
+            "modified": "2024-05-01T19:08:29.044Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\":\"china_ana\",\n  \"email\":\"china@gmail.com\",\n  \"country\":\"USA\",\n  \"city\":\"Houston\",\n  \"phone\":\"+1 (123) 4567-8910\",\n  \"image\":\"https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "bded276f-77f5-4cf7-8c8b-d9a0a5d3b6a0",
+            "colId": "897e6afb-0d4e-4fad-9291-04eb6984eeff",
+            "containerId": "",
+            "name": "User (create)",
+            "url": "http://localhost:8800/api/v1/user/create",
+            "method": "POST",
+            "sortNum": 65000,
+            "created": "2024-05-02T13:59:48.224Z",
+            "modified": "2024-05-02T14:06:33.343Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\":\"yamilamaria\",\n  \"email\":\"yamilamaria@gmail.com\",\n  \"password\":\"yamilamaria\",\n  \"country\":\"USA\",\n  \"city\":\"Kendal\",\n  \"phone\":\"+1 (123) 4567-8910\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "1411583b-80e6-45ea-b649-d116dbdb3837",
+            "colId": "897e6afb-0d4e-4fad-9291-04eb6984eeff",
+            "containerId": "",
+            "name": "User (login)",
+            "url": "http://localhost:8800/api/v1/user/login",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-04-24T22:04:08.037Z",
+            "modified": "2024-04-25T22:04:46.688Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\":\"anniel\",\n  \"email\": \"anniel@gmail.com\",\n  \"password\":\"anniel\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "36872a13-280c-4cb7-9a55-bb75a221b58b",
+            "colId": "897e6afb-0d4e-4fad-9291-04eb6984eeff",
+            "containerId": "",
+            "name": "User (logout)",
+            "url": "http://localhost:8800/api/v1/user/logout",
+            "method": "POST",
+            "sortNum": 110000,
+            "created": "2024-04-25T23:37:00.095Z",
+            "modified": "2024-04-25T23:37:37.741Z",
+            "headers": []
+        },
+        {
+            "_id": "fce188fd-2244-4c8a-885e-8145de16313e",
+            "colId": "897e6afb-0d4e-4fad-9291-04eb6984eeff",
+            "containerId": "",
+            "name": "Rooms (create)",
+            "url": "http://localhost:8800/api/v1/room/create/660ee69d05c3e0db729aa2c0",
+            "method": "POST",
+            "sortNum": 150000,
+            "created": "2024-04-24T22:04:08.045Z",
+            "modified": "2024-04-30T22:39:19.558Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\":\"Medium Room\",\n  \"price\":600,\n  \"maxPeople\":1,\n  \"description\":\"Medium size bed, 1 bathroom, balcony\",\n  \"roomNumbers\":[{\"number\":200}, {\"number\":201}, {\"number\":205}]\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "41922373-a2b8-41c9-8cb9-936678e3091e",
+            "colId": "897e6afb-0d4e-4fad-9291-04eb6984eeff",
+            "containerId": "",
+            "name": "Rooms (update)",
+            "url": "http://localhost:8800/api/v1/room/update/660f08d1c7800e5eb86969e1",
+            "method": "PUT",
+            "sortNum": 155000,
+            "created": "2024-04-24T22:04:08.047Z",
+            "modified": "2024-04-30T22:20:56.952Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\":\"Medium Room\",\n  \"price\":400,\n  \"maxPeople\":2,\n  \"description\":\"Medium size bed, 1 bathroom, balcony\",\n  \"roomNumbers\":[{\"number\":102}, {\"number\":103}]\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "879e60f1-1c07-4ef4-9e80-8b8369d6b618",
+            "colId": "897e6afb-0d4e-4fad-9291-04eb6984eeff",
+            "containerId": "",
+            "name": "Rooms (delete)",
+            "url": "http://localhost:8800/api/v1/room/delete/663173078551656dd4564611",
+            "method": "DELETE",
+            "sortNum": 160000,
+            "created": "2024-04-24T22:04:08.046Z",
+            "modified": "2024-04-30T23:01:11.777Z",
+            "headers": []
+        },
+        {
+            "_id": "ca5d7faa-d962-4970-8100-e420a2eb7389",
+            "colId": "897e6afb-0d4e-4fad-9291-04eb6984eeff",
+            "containerId": "",
+            "name": "Rooms (get)",
+            "url": "http://localhost:8800/api/v1/room/get/660f0669c7800e5eb86969a3",
+            "method": "GET",
+            "sortNum": 180000,
+            "created": "2024-04-24T22:04:08.048Z",
+            "modified": "2024-04-30T22:19:29.634Z",
+            "headers": []
+        },
+        {
+            "_id": "1ba1320b-8b7b-45a2-85d1-293bbf476400",
+            "colId": "897e6afb-0d4e-4fad-9291-04eb6984eeff",
+            "containerId": "",
+            "name": "Rooms (get all)",
+            "url": "http://localhost:8800/api/v1/room/get",
+            "method": "GET",
+            "sortNum": 190000,
+            "created": "2024-04-24T22:04:08.049Z",
+            "modified": "2024-04-30T22:18:39.381Z",
+            "headers": []
+        },
+        {
+            "_id": "97970ff6-da07-4bd0-be59-0f6116b61e47",
+            "colId": "897e6afb-0d4e-4fad-9291-04eb6984eeff",
+            "containerId": "",
+            "name": "Rooms (update room availability)",
+            "url": "http://localhost:8800/api/v1/room/availability/660f08d1c7800e5eb86969e1",
+            "method": "PUT",
+            "sortNum": 210000,
+            "created": "2024-04-24T22:04:08.056Z",
+            "modified": "2024-04-30T22:19:02.862Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"dates\":[\"2024-04-04T20:08:49.283Z\", \"2024-04-04T20:08:49.283Z\"]\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "ZLyH93kMRlAA4hwIvcmLonVfzqZN9CHeNsT0IMO3Xm9W9jF_13YJKYyjLmqTSWCHtgnC0HmY7SClEb_ljUS6rQ"
+}

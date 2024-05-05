@@ -1,0 +1,201 @@
+.dataTable {
+    flex: 1;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 20px;
+    border-radius: 10px;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+
+    .title {
+        font-size: 18px;
+        font-weight: 500;
+        color: gray;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .link {
+            text-decoration: none;
+            color: rgb(0, 174, 0);
+            font-size: 16px;
+            font-weight: 400;
+            border: 1px dotted rgb(0, 174, 0);
+            border-radius: 5px;
+            padding: 2px 5px;
+            display: flex;
+            align-items: center;
+            height: 25px;
+            cursor: pointer;
+        }
+    }
+
+    .cellWithImg {
+        padding: 10px 0px;
+
+        .cellImg {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    }
+
+    .cellWithStatus {
+        display: flex;
+        align-items: center;
+        height: 100%;
+
+        // 🙄 I used this styles when the Admin App was not connected to my Database.
+        // .active {
+        //     color: rgb(0, 174, 0);
+        //     background: rgba(0, 128, 0, 0.151);
+        //     padding: 2px 5px;
+        //     border-radius: 5px;
+        //     display: flex;
+        //     align-items: center;
+        //     height: 25px;
+        // }
+
+        // .pending {
+        //     color: goldenrod;
+        //     background: rgba(218, 165, 32, 0.2);
+        //     padding: 2px 5px;
+        //     border-radius: 5px;
+        //     display: flex;
+        //     align-items: center;
+        //     height: 25px;
+        // }
+
+        // .passive {
+        //     color: crimson;
+        //     background: rgba(225, 0, 0, 0.05);
+        //     padding: 2px 5px;
+        //     border-radius: 5px;
+        //     display: flex;
+        //     align-items: center;
+        //     height: 25px;
+        // }
+        
+        .true {
+            color: green;
+            background: rgba(0, 128, 0, 0.2);
+            padding: 2px 5px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 25px;
+            width: 100%;
+        }
+
+        .false {
+            color: crimson;
+            background: rgba(255, 0, 0, 0.2);
+            padding: 2px 5px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 25px;
+            width: 100%;
+        }
+    }
+
+    .cellWithType {
+        display: flex;
+        align-items: center;
+        height: 100%;
+
+        .hotel {
+            color: green;
+            background: rgba(0, 128, 0, 0.2);
+            padding: 2px 5px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 25px;
+            width: 100%;
+        }
+
+        .apartment {
+            color: crimson;
+            background: rgba(255, 0, 0, 0.2);
+            padding: 2px 5px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 25px;
+            width: 100%;
+        }
+
+        .resort {
+            color: goldenrod;
+            background: rgba(218, 165, 32, 0.2);
+            padding: 2px 5px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 25px;
+            width: 100%;
+        }
+
+        .villa {
+            color: purple;
+            background: rgba(128, 0, 128, 0.2);
+            padding: 2px 5px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 25px;
+            width: 100%;
+        }
+
+        .cabin {
+            color: blue;
+            background: rgba(0, 0, 255, 0.2);
+            padding: 2px 5px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 25px;
+            width: 100%;
+        }
+    }
+
+    .cellAction {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        gap: 15px;
+
+        .viewButton {
+            color: darkblue;
+            border: 1px dotted rgba(0, 0, 139, 0.596);
+            padding: 2px 5px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            height: 25px;
+            cursor: pointer;
+        }
+
+        .deleteButton {
+            color: crimson;
+            border: 1px dotted rgba(220, 20, 60, 0.6);
+            padding: 2px 5px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            height: 25px;
+            cursor: pointer;
+        }
+    }
+}

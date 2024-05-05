@@ -1,0 +1,110 @@
+.searchItem {
+    border: 1px solid #595959;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.searchItemImage {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+}
+
+.searchItemDescription {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 2;
+}
+
+.searchItemTitle {
+    font-size: 20px;
+    color: #006ae4c2;
+}
+
+.searchItemDistance {
+    font-size: 12px;
+}
+
+.searchItemTaxiOption {
+    font-size: 12px;
+    background: #008009;
+    color: #FFF;
+    /* The element is going to have as maximum width, the content size. */
+    max-width: max-content;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.searchItemSubtitle {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.searchItemFeatures {
+    font-size: 14px;
+}
+
+.searchItemCancelOption {
+    font-size: 14px;
+    color: #006707;
+    font-weight: bold;
+}
+
+.searchItemCancelOptionSubtitle {
+    font-size: 14px;
+    color: #006707;
+}
+
+.searchItemDetails {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.searchItemRating {
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchItemRating>span {
+    font-weight: 500;
+}
+
+.searchItemRating>button {
+    background: #003B95;
+    color: #FFF;
+    padding: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px 5px 5px 0px;
+}
+
+.searchItemTexts {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 24px;
+}
+
+.searchItemTaxesOption {
+    font-size: 12px;
+    color: #555;
+}
+
+.searchItemCheckButton {
+    background: #003B95;
+    color: #FFF;
+    font-weight: bold;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
